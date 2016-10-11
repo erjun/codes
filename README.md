@@ -1,0 +1,7 @@
+# codes
+这是最近写的代码。
+
+save_amazon_user和save_qq_member是两个Chrome浏览器插件。
+save_amazon_user可以保存amazon用户到数据库。
+save_qq_member可以保存qq群列表到数据库。
+PHP有扩展保存数据库的后端代码，amazon是保存到MySQL数据库，qq是保存到MongoDB数据库。
