@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "save qq member",
+  "description": "",
+  "version": "1.0",
+  "background": {
+    "page": "background.html"
+  },
+  "browser_action": {
+    "default_icon": "qq.jpg"
+    ,"default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "cookies",
+    "http://*/*", 
+    "https://*/*" 
+  ]
+}
